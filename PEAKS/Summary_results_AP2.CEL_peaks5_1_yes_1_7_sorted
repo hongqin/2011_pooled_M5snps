@@ -1,0 +1,37 @@
+SNPs are listed according to feature type.  Each SNP call with associated SNPscanner parameters is followed by a line listing the feature in which it falls
+If multiple SNPs are predicted within a feature, this is often indicative of a deletion or a hybridization artifact due to low sequence complexity.  In this case the SNP call is followed by feature informaion and subsequent lines containing SNP predictions mapping to the same feature.Interpret with caution!!!!
+
+
+The number of SNPs that are predicted within ORFs(verified and uncharacterized ORFs but not dubious and YRF1-like ORFs.  Uncharacterized ORFs within telomeres and retrotransposons should be treated with high suspicion), intergenic regions, pseudogenes or introns is : 0
+
+SNPs are predicted in the following ORFs:
+
+
+
+
+SNPs are predicted in the following uncharacterized ORFs:
+
+
+
+
+SNPs are predicted in the following intergenic regions:
+
+
+
+
+SNPs are predicted in the following pseudogenes:
+
+
+
+
+SNPs are predicted in the following introns:
+
+
+
+
+SNPs are predicted in the following dubious ORFs and YRF1 ORFs. These are frequent false positives using SNPscanner:
+
+
+
+
+

@@ -1,0 +1,68 @@
+SNPs are listed according to feature type.  Each SNP call with associated SNPscanner parameters is followed by a line listing the feature in which it falls
+If multiple SNPs are predicted within a feature, this is often indicative of a deletion or a hybridization artifact due to low sequence complexity.  In this case the SNP call is followed by feature informaion and subsequent lines containing SNP predictions mapping to the same feature.Interpret with caution!!!!
+
+
+The number of SNPs that are predicted within ORFs(verified and uncharacterized ORFs but not dubious and YRF1-like ORFs.  Uncharacterized ORFs within telomeres and retrotransposons should be treated with high suspicion), intergenic regions, pseudogenes or introns is : 17
+
+SNPs are predicted in the following ORFs:
+
+chr1 113069 5.22508 6 3 0 0 10 11 113065 113076
+S000000019	ORF	Verified	YAL021C	CCR4	NUT21|FUN27	chromosome 1	L000000239	1	113360	110847	C	-25	7/20/04	7/31/96	"Component of the CCR4-NOT transcriptional complex, which is involved in regulation of gene expression; component of the major cytoplasmic deadenylase, which is involved in mRNA poly(A) tail shortening"
+chr7 269801 23.7102 6 3 1 0 15 18 269791 269809
+S000003096	ORF	Verified	YGL128C	CWC23		chromosome 7		7	270150	269299	C		7/20/04	9/22/03	"Component of a complex containing Cef1p, putatively involved in pre-mRNA splicing; has similarity to E. coli DnaJ and other DnaJ-like proteins and to S. pombe Cwf23p"
+chr10 519601 5.32408 6 3 0 0 10 11 519597 519608
+S000003806	ORF	Verified	YJR045C	SSC1	mtHSP70|ENS1	chromosome 10	L000000561	10	521517	519553	C		1/18/06	7/31/96	Mitochondrial matrix ATPase that is a subunit of the presequence translocase-associated protein import motor (PAM); involved in protein translocation into the matrix and protein folding; member of the heat shock protein 70 (HSP70) family
+chr14 196684 120.462 7 7 0 0 641 671 196418 197090
+S000005185	ORF	Verified	YNL241C	ZWF1	POS10|MET19	chromosome 14	L000002572	14	197944	196427	C	-153	11/7/05	1/28/97	"Glucose-6-phosphate dehydrogenase (G6PD), catalyzes the first step of the pentose phosphate pathway; involved in adapting to oxidatve stress; homolog of the human G6PD which is deficient in patients with hemolytic anemia"
+chr14 197282 71.7663 6 6 0 0 286 337 197113 197450
+chr14 197510 108.834 6 6 0 0 453 483 197462 197945
+chr15 419272 7.56561 4 3 0 0 19 23 419256 419279
+S000005574	ORF	Verified	YOR048C	RAT1	XRN2|TAP1|HKE1	chromosome 15	L000001584	15	421651	418631	C	17.1	1/5/06	7/31/96	"Nuclear 5' to 3' single-stranded RNA exonuclease, involved in RNA metabolism, including rRNA and snRNA processing as well as mRNA transcription termination"
+chr16 379429 8.0285 6 4 0 0 16 17 379423 379440
+S000006010	ORF	Verified	YPL089C	RLM1		chromosome 16	L000003028	16	381147	379117	C		7/21/04	7/31/96	"MADS-box transcription factor, component of the protein kinase C-mediated MAP kinase pathway involved in the maintenance of cell integrity; phosphorylated and activated by the MAP-kinase Slt2p"
+
+
+SNPs are predicted in the following uncharacterized ORFs:
+
+chr16 453665 76.0102 7 3 0 0 9 18 453658 453676
+S000005977	ORF	Uncharacterized	YPL056C			chromosome 16		16	453732	453427	C		7/21/04	7/31/96	Hypothetical protein
+
+
+SNPs are predicted in the following intergenic regions:
+
+chr6 31685 8.87149 6 5 0 0 9 18 31677 31695
+S0000000DG	intergenic		between YFL051C and ARS601			chromosome 6		6	30541	32472					
+chr6 95636 12.1052 6 2 0 0 11 13 95633 95646
+S0000000DG	intergenic		between YFL022C and YFL021C-A			chromosome 6		6	95009	95758					
+chr8 488256 29.2537 7 4 0 0 15 17 488248 488265
+S0000000DG	intergenic		between YHR193C and YHR193C-A			chromosome 8		8	488237	488652					
+chr9 302529 13.9382 6 4 0 0 17 19 302522 302541
+S0000000DG	intergenic		between YIL028W and YIL027C			chromosome 9		9	302497	303676					
+chr11 164778 12.6206 6 4 0 0 17 21 164768 164789
+S0000000DG	intergenic		between YKL152C and YKL151C			chromosome 11		11	164391	164921					
+chr11 166117 39.06 6 4 1 0 14 20 166104 166124
+S0000000DG	intergenic		between YKL151C and YKL150W			chromosome 11		11	165936	166548					
+chr12 656746 37.7658 6 4 2 0 13 15 656738 656753
+S0000000DG	intergenic		between YLRWdelta14 and tA(AGC)L			chromosome 12		12	656746	656935					
+chr13 302968 10.2669 5 3 0 0 15 32 302946 302978
+S0000000DG	intergenic		between YMR015C and YMR016C			chromosome 13		13	302485	303234					
+
+
+SNPs are predicted in the following pseudogenes:
+
+
+
+
+SNPs are predicted in the following introns:
+
+
+
+
+SNPs are predicted in the following dubious ORFs and YRF1 ORFs. These are frequent false positives using SNPscanner:
+
+
+
+
+chr9 439859 286.889 6 6 0 0 69 82 439804 1
+S000028970	telomere		TEL09R			chromosome 9		9	439065	439885	W	43	9/9/03	9/9/03	"Telomeric region on the right arm of Chromosome IX, composed of an X element core sequence, X element combinatorial repeats, and a short terminal stretch of telomeric repeats"
+S000028971	telomeric_repeat		TEL09R-TR			chromosome 9		9	439813	439885	W		9/9/03	9/9/03	IX right telomere TG(1-3)
